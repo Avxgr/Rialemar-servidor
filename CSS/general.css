@@ -1,0 +1,38 @@
+@font-face{
+	font-family: 'Moon';
+	src: url('Fonts/Moon.otf');
+	font-weight: bold;
+	font-style: bold;
+}
+body{
+    margin: 0px;
+	z-index: 0;
+	background-color: white;
+}
+header{
+	font-family: 'Moon';
+    background-color: rgba(30, 30, 30, 1);
+    margin: 0px 0px 40px 0px;
+    width: 100%;
+    height: 110px;
+	position: fixed;
+    z-index: 100;
+}
+li, a{
+	text-decoration: none;
+}
+#contenedor{
+	padding-top: 9rem; 
+}
+#footer{
+	left: 0px;
+	bottom: 0px;
+	margin-bottom: -10px;
+	width:100%;
+	background-color: #000;
+}
+#footer h3{
+	margin: 0px;
+	color: white;
+	text-align: center;
+}

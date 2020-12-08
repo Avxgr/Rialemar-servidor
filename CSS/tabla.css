@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  border: 5px double black;
+}
+
+table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+table tr {
+  background-color: #F9E4B7;
+  padding: .35em;
+}
+
+table th{
+  background-color: #ff0000;
+  color:#000;
+}
+
+tr:hover{background-color: #ffbfaa}
+
+table th,
+table td {
+  padding: .625em;
+  text-align: center;
+}
+img{ width:100px; height:100px;}
